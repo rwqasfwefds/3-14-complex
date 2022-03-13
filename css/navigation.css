@@ -1,0 +1,75 @@
+#main {
+    border-top: 1px solid #C8C8C8;
+    border-bottom: 1px solid #C8C8C8;
+    height: 40px;
+    position: fixed;
+    top: 120px;
+    background-color: white;
+    width: 980px;
+}
+.pull-left{
+    float: left;
+}
+.outer-menu-item {
+    float: left;
+    position: relative;
+}
+.outer-menu-item:hover {
+    background: black;
+    color: white
+}
+
+.menu-title {
+    display: block;
+    height: 30px; 
+    line-height: 30px;
+    text-align: center;
+    padding: 5px 60px;
+    width: 130px;
+}
+
+.inner-menu {
+    display: none;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 6px rgba(5, 5, 5, 0.9);
+    z-index: 1000;
+    text-align: center
+}
+
+.inner-menu-item > a {
+    display: block;
+    padding: 5px 10px;
+    color: black
+}
+
+.inner-menu-item > a:hover {
+    background: black;
+    color: white;
+}
+
+/* 검색 창 */
+.pull-right { 
+    float:right;
+}
+.search-bar {
+    height: 26px;
+    padding: 7px;
+}
+.input-search {
+    display: block;
+    float: left;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 15px 0 0 15px;
+    width: 120px; height: 24px;
+    padding: 0 0 0 10px;
+    font-size: 12px;
+    color: #555555;
+}
+.input-search-submit {
+    float: left;
+    width: 50px; height: 26px;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid #CCCCCC;
+}
